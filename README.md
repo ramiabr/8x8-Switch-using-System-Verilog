@@ -27,14 +27,15 @@ Cycle    Frame_n[i]    Valid_v[i]    di[i]
 
 Output Protocol:
 ---------------
-Cycle   Frame_n[i]    Valid_v[i]    di[i]
-1           0               0         P0 (Payload 0th bit)
-2           0               0         P1
-...
-...
-30          0               0         P30 
-31          1               0         P31 (Last bit of data)
-32          1               1         X
+Cycle   Frame_n[i]    Valid_v[i]    di[i]   
+1           0               0         P0 (Payload 0th bit)     
+2           0               0         P1   
+...   
+...   
+30          0               0         P30    
+31          1               0         P31 (Last bit of data)     
+32          1               1         X   
 
 
+PS: Choose RAW to view the file in better shape
 
