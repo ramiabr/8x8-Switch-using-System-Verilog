@@ -10,19 +10,19 @@ Input Protocol:
 ---------------
 Cycle   Frame_n[i]    Valid_v[i]    di[i]
 1           0               1         A0   (Address 0)  
-2           0               1         A1  
-3           0               1         A2
-4           0               1         A3
-5           0               1         X (Padding)
-6           0               1         X 
-7           0               0         P0 (Payload 0th bit)
-8           0               0         P1
+2           0               1         A1    
+3           0               1         A2   
+4           0               1         A3  
+5           0               1         X (Padding)  
+6           0               1         X     
+7           0               0         P0 (Payload 0th bit)  
+8           0               0         P1  
 ...
 ...
 ...
-38          0               0          P30 
-39          1               0          P31 (Last bit of data)
-40          1               1          X 
+38          0               0          P30   
+39          1               0          P31 (Last bit of data)  
+40          1               1          X   
 
 
 Output Protocol:
