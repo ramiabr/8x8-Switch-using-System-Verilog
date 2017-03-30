@@ -9,7 +9,7 @@ In this project 8X8 switch has been implemented using System Verilog. The design
 Input Protocol:
 ---------------
 Cycle   Frame_n[i]    Valid_v[i]    di[i]
-1           0               1         A0   (Address 0)
+1           0               1         A0   (Address 0)  
 2           0               1         A1  
 3           0               1         A2
 4           0               1         A3
